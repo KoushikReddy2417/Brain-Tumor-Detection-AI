@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Django database
+db.sqlite3
+
+# User uploaded files
+media/
+
+# Django collected static files
+staticfiles/
+
+# Environment variables / secrets
+.env
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python testing/cache
+.pytest_cache/
+
+# Duplicate model in project root
+/best_efficientnet.h5
+
+# Dataset files - do not upload to GitHub
+*.zip
+brain_tumor_dataset/
+# Training datasets
+*.zip
+brain_tumor_dataset/
+GAN-Traning Images/
+
+# Old/unused models
+best_mobilenet.h5
+brain_tumor_model.h5
+mobilenet_final.h5
+training_history.pkl
+
+# TensorFlow training history
+efficientnet_history.pkl
+
+# Root duplicate model
+/best_efficientnet.h5

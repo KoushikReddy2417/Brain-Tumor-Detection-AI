@@ -1,0 +1,40 @@
+body {
+    background: #eef5ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-card {
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+    background: white;
+    padding: 30px;
+}
+
+.upload-box {
+    border: 2px dashed #0d6efd;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    background: #f8fbff;
+}
+
+.result-card {
+    margin-top: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.progress {
+    height: 24px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+}
