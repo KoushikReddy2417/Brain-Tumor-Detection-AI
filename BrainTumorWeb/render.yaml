@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: brain-tumor-detection-ai
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn BrainTumorWeb.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.8.10
+
