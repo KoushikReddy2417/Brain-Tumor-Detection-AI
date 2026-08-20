@@ -8,6 +8,7 @@ charset-normalizer==3.4.9
 contourpy==1.1.1
 cryptography==45.0.7
 cycler==0.12.1
+dj-database-url==2.3.0
 Django==4.2.30
 flatbuffers==25.12.19
 fonttools==4.57.0
@@ -37,6 +38,7 @@ pandas==2.0.3
 pillow==10.4.0
 pkg_resources==0.0.0
 protobuf==4.25.9
+psycopg2-binary==2.9.10
 pyasn1==0.6.4
 pyasn1_modules==0.4.2
 pycparser==2.23
